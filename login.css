@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Ownglyph_UNZ-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/Ownglyph_UNZ-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.logo {
+    float: right; 
+    margin: -40px 10px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.hello{
+    color: #051C36;
+    margin-top: 70px;
+    padding-left: 10px;
+}
+.hello p{
+    font-family: 'Ownglyph_UNZ-Rg';
+    font-size: 25px;
+}
+.hello span{
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+}
+.login-input {
+    width: 361px;            
+    height: 40px;             
+    background-color: #ffffff; 
+    border: none;            
+    border-radius: 100px;      
+    box-shadow: 0 0px 2.8px 0px rgba(0,0,0,0.25);
+    padding: 0px 12px;          
+    font-size: 14px;        
+    outline: none;            
+    box-sizing: border-box;
+    margin: 7px 0;
+  }
+  .login{
+    background-color: #FFC857;
+    color: #ffffff;
+    width: 220px;
+    height: 40px;
+    border-radius:100px;
+    margin: 10px 70px;
+    border: none; 
+    outline: none;
+    font-size: 16px;
+  }
+  .login_text01{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    font-size: 16px;
+    color: #171717;
+    font-family: 'Pretendard-Regular';
+    margin-top: 30px;
+  }
+  .login_text02{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #878787;
+    font-family: 'Pretendard-Regular';
+    margin-bottom: 30px;
+  }
+  .simple_text{
+    display: flex;
+    justify-content: center;
+    font-family: 'Pretendard-Regular';
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .simpie_icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
