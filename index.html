@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>동양북스 모바일</title>
+  <link rel="stylesheet" href="indax.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="image/logo.png" alt="동양북스 로고">
+      </a>
+    </div>
+    <div class="icon-group">
+      <div class="notification-icon">
+        <img src="image/icon_ball.png" alt="알림 아이콘" id="notificationIcon">
+      </div>
+      <div class="hamburger-menu">
+        <img src="image/icon_ham.png" alt="메뉴 아이콘" id="menuIcon">
+      </div>
+    </div>
+    <div class="modal" id="notificationModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close" id="closeNotification">
+            <img src="image/icon_close.png" alt="닫기 아이콘">
+          </span>
+          <div class="modal_icon">
+            <img src="image/icon_ball02.png" alt="모달창 아이콘">
+          </div>
+        </div>
+        <div class="modal_text">
+          <p class="serve">신간소식</p>
+          <p class="main">따끈따끈한 신간출시! 외국어 학습의 새로운 시작을!</p>
+          <p class="serve">학습 알림</p>
+          <p class="main">은주님! 동양학습과 함께 할 시간이에요!</p>
+          <p class="serve">신간소식</p>
+          <p class="main">새로운 외국어 학습서, 지금 바로 만나보세요!</p>
+          <p class="serve">신간소식</p>
+          <p class="main">최신 외국어 학습서 출간! 지금 바로 확인해보세요!</p>
+          <p class="serve">신간소식</p>
+          <p class="main">새로 나온 외국어 교재로 한 걸음 더 성장해보세요!</p>
+          <p class="serve">신간소식</p>
+          <p class="main">놓치지 마세요! 최신 외국어 학습서가 출시되었습니다!</p>
+          <p class="serve">학습 알림</p>
+          <p class="main">은주님! 오늘도 열심히 해볼까요?</p>
+        </div>
+        <div class="read-all-container">
+          <button class="read-all">모두 읽기</button>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="menuModal">
+      <div class="modal-content">
+        <span class="close" id="closeMenu">
+          <img src="image/icon_close.png" alt="닫기 아이콘">
+        </span>
+        <p>여기에 메뉴 관련 내용이 표시됩니다.</p>
+      </div>
+    </div>
+    <div class="top_icon">
+      <img src="image/icon_profile.png" alt="프로필 아이콘">
+    </div>
+  </header>
+  <div class="main_nav">
+    <ul>
+      <li>오늘의 혜택</li>
+      <li>언어별</li>
+      <li>목적별</li>
+      <li>수준별</li>
+      <li>분야별</li>
+      <li>학습키워드</li>
+      <li>스터디플러스</li>
+    </ul>
+  </div>
+  <nav class="mini_nav">
+    <ul>
+      <li><a href="#">오늘의 혜택</a></li>
+      <li><a href="#">스터디플러스</a></li>
+    </ul>
+  </nav>
+  <section class="banner">
+    <picture>
+      <source media="(max-width:768px)" srcset="image/mobile_banner.png">
+      <img src="image/pcbanner.png" alt="프로모션 배너">
+    </picture>
+  </section>
+  <section class="book">
+    <div class="book_text">
+      <p>베스트셀러</p>
+    </div>
+    <div class="book_img" id="dragContainer">
+      <img src="https://www.dongyangbooks.com/Upload/books/20241202_682030348.jpg" alt="교재 01">
+      <img src="https://www.dongyangbooks.com/Upload/books/20241029_21020755.jpg" alt="교재 02">
+      <img src="https://www.dongyangbooks.com/Upload/books/20220627_20081992.jpg" alt="교재 03">
+      <img src="https://www.dongyangbooks.com/Upload/books/20241106_273238634_1.jpg" alt="교재 04">
+      <img src="https://www.dongyangbooks.com/Upload/books/20241122_905234428.jpg" alt="교재 05">
+      <img src="https://www.dongyangbooks.com/Upload/books/20241106_273232670_1.jpg" alt="교재 06">
+      <img src="https://www.dongyangbooks.com/Upload/books/20250212_468633648.jpg" alt="교재 07">
+      <img src="https://www.dongyangbooks.com/Upload/books/20250120_643183525.jpg" alt="교재 08">
+      <img src="https://www.dongyangbooks.com/Upload/books/20250109_866393239.jpg" alt="교재 09">
+      <img src="https://www.dongyangbooks.com/Upload/books/20240924_186452285.jpg" alt="교재 10">
+      <img src="https://www.dongyangbooks.com/Upload/books/20240807_224017676.jpg" alt="교재 11">
+    </div>
+  </section>
+  <section class="postscript">
+    <div class="pos_text">
+      <p>스터디 로그</p>
+    </div>
+    <div class="pos_img">
+      <img src="image/후기1pc.png" alt="후기 1">
+      <img src="image/후기2pc.png" alt="후기 2">
+      <img src="image/후기3pc.png" alt="후기 3">
+      <img src="image/후기4pc.png" alt="후기 4">
+    </div>
+  </section>
+  <footer>
+    <p>회사소개 | 이용약관 | <span> 개인정보취급방침</span> | 이메일수집거부 | 제휴문의</p>
+    <p>주식회사 동양북스 대표 김태웅</p>
+    <p>
+      사업자 등록번호 105-87-98057<br>
+      서울본사: 서울특별시 마포구 동교로22길14<br>
+      물류센터: 경기 파주시 소라지로 138-20<br>
+      © 동양북스 inc. all rights reserved
+    </p>
+  </footer>
+  <script src="indax.js" defer></script>
+  <div class="bottom-menu">
+    <img src="image/icon01.png" alt="서치">
+    <a href="index.html">
+      <img src="image/icon02.png" alt="홈">
+    </a>
+    <a href="login.html">
+      <img src="image/icon03.png" alt="프로필">
+    </a>
+  </div>
+</body>
+</html>
