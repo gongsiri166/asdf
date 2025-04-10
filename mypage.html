@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마이페이지</title>
+    <link rel="stylesheet" href="mypage.css" />
+</head>
+<body class="page-bg">
+  <h1 class="title">마이북스</h1>
+  <div class="button-group">
+    <a href="mypaeg02.html" class="text-link">성취현황</a>
+    <a href="#" class="text-link">컨텐츠 저장소</a>
+    <a href="#" class="text-link">후기관리</a>
+    <a href="#" class="text-link">찜</a>
+    <div class="customer-center">
+      <span class="text-link">고객센터</span>
+      <img src="image/icon_arrow.png" alt="열림 버튼" class="expand-icon" onclick="toggleCustomerCenter()" />
+    </div>
+    <div class="customer-items" id="customerItems" style="display:none;">
+      <a href="#" class="text-link">저주 묻는 질문 (FAQ)</a>
+      <a href="#" class="text-link">문의하기</a>
+    </div>
+  </div>
+  <div class="bottom-menu">
+    <a href="search.html"><img src="image/icon01.png" alt="서치" /></a>
+    <a href="main.html"><img src="image/icon02.png" alt="홈" /></a>
+    <a href="login.html"><img src="image/icon03.png" alt="프로필" /></a>
+  </div>
+  <script>
+    function toggleCustomerCenter() {
+      const items = document.getElementById('customerItems');
+      if (items.style.display === 'none') {
+        items.style.display = 'flex';
+      } else {
+        items.style.display = 'none';
+      }
+    }
+  </script>
+</body>
+</html>

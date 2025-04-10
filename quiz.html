@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>리턴 워밍업</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <div class="header-container">
+    <img src="image/icon_backw.png" alt="뒤로가기" class="back-button">
+    <h2>리턴 워밍업</h2>
+  </div>
+  <p style="text-align: center;">다음 대화에서 빈칸에 들어갈 가장 자연스러운 표현은?</p>
+  <div class="qiu_im">
+    <img src="image/qui01.png" alt="퀴즈화면">
+  </div>
+  <div class="bottom-back-container">
+    <img src="image/restore.png" alt="뒤로가기" class="back-button-bottom">
+    <button class="question-counter-bottom">1/12</button>
+  </div>
+  <div class="answer-container">
+    <button class="answer-btn">Kein Problem!</button>
+    <button class="answer-btn">Mach dir keine Sorgen!</button>
+    <button class="answer-btn">Tut mir leid, das geht nicht.</button>
+    <button class="answer-btn">Ich weiß nicht.</button>
+  </div>
+  <div class="bottom-menu">
+    <a href="search.html"><img src="image/icon01.png" alt="서치" /></a>
+    <a href="main.html"><img src="image/icon02.png" alt="홈" /></a>
+    <a href="login.html"><img src="image/icon03.png" alt="프로필" /></a>
+  </div>
+  <script>
+    var currentQuestion = 1;
+    var totalQuestions = 12;
+    function updateQuestionCounter() {
+      document.querySelector(".question-counter-bottom").innerText = currentQuestion + "/" + totalQuestions;
+    }
+    document.querySelector(".back-button-bottom").addEventListener("click", function() {
+      if (currentQuestion > 1) {
+        currentQuestion--;
+        updateQuestionCounter();
+      }
+    });
+    document.querySelector(".answer-container").addEventListener("click", function(event) {
+      if (event.target.classList.contains("answer-btn")) {
+        if (currentQuestion < totalQuestions) {
+          currentQuestion++;
+          updateQuestionCounter();
+        }
+      }
+    });
+    updateQuestionCounter();
+  </script>
+</body>
+</html>

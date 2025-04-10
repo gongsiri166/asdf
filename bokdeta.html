@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상세페이지</title>
+    <link rel="stylesheet" href="bokdeta.css">
+</head>
+<body>
+    <header>
+        <button class="double-img-button">
+            <img class="icon-back" src="image/icon_back.png" alt="아이콘 1" onclick="history.back()">
+            <img class="icon-heart" src="image/heart.png" alt="아이콘 2" onclick="changeHeartIcon()" data-toggled="false">
+        </button>
+    </header>
+    <div class="book"></div>
+    <img class="book-image" src="https://www.dongyangbooks.com/Upload/books/20250313_118665839.jpg" alt="책 표지 이미지">
+    <div class="booktitle">
+        <h4>네이티브처럼 자연스럽고 정확한 말하기를 위한 리닛 쌤의 영어 교정 수업</h4>
+        <p>리닛 알네자 | 출판사: 동양북스 <span style="color: red;">18,800원</span></p>
+    </div>
+    <div class="round-buttons">
+        <button class="round-button" style="background-color: #051C36;">알라딘</button>
+        <button class="round-button" style="background-color: #051C36;">교보문고</button>
+        <button class="round-button" style="background-color: #051C36;">예스24</button>
+    </div>
+    <div class="pic">
+        <div class="pic_text">
+        <p>선택한 책과 함께 보면 좋을 학습영상 추천</p></div>
+        <div class="pic_img">
+        <img src="image/pic01.png" alt="추천영상1">
+        <img src="image/pic02.png" alt="추천영상4">
+        <img src="image/pic03.png" alt="추천영상4">
+        <img src="image/pic04.png" alt="추천영상4">
+        <img src="image/pic05.png" alt="추천영상4">
+    </div>
+    </div>
+    <div class="bottom-menu">
+      <a href="search.html">
+        <img src="image/icon01.png" alt="서치" />
+      </a>
+      <a href="index.html">
+        <img src="image/icon02.png" alt="홈" />
+      </a>
+      <a href="login.html">
+        <img src="image/icon03.png" alt="프로필" />
+      </a>
+    </div>
+    <script>
+
+    function changeHeartIcon() {
+        var icon = document.querySelector('.icon-heart');
+        if (icon.dataset.toggled === 'true') {
+            icon.src = 'image/heart.png';
+            icon.alt = '아이콘 2';
+            icon.dataset.toggled = 'false';
+        } else {
+            icon.src = 'image/heart02.png';
+            icon.alt = '새 하트 아이콘';
+            icon.dataset.toggled = 'true';
+        }
+    }
+    
+    function addImage() {
+        var img = document.querySelector('.book-image');
+        img.src = 'image/heart02.png';
+        img.alt = '하트';
+    }
+    </script>
+</body>
+</html>
