@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>동양북스 모바일</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="image/logo.png" alt="동양북스 로고" />
+      </a>
+    </div>
+    <div class="icon-group">
+      <div class="notification-icon">
+        <img src="image/icon_ball.png" alt="알림 아이콘" id="notificationIcon" />
+      </div>
+      <div class="hamburger-menu">
+        <img src="image/icon_ham.png" alt="메뉴 아이콘" id="menuIcon" />
+      </div>
+    </div>
+    <div class="search-bar desktop-only">
+      <input type="text" placeholder="검색어를 입력하세요" />
+      <button type="submit">
+        <img src="image/icon_search.png" alt="검색" />
+      </button>
+    </div>
+    <div class="top_icon">
+      <img src="image/icon_profile.png" alt="프로필 아이콘" />
+    </div>
+  </header>
+  <nav class="main_nav">
+    <ul>
+      <li>오늘의 혜택</li>
+      <li>언어별</li>
+      <li>목적별</li>
+      <li>수준별</li>
+      <li>분야별</li>
+      <li>학습키워드</li>
+      <li>스터디플러스</li>
+    </ul>
+  </nav>
+  <div class="mini_nav">
+    <ul>
+      <li><a href="#">오늘의 혜택</a></li>
+      <li><a href="#">스터디플러스</a></li>
+    </ul>
+  </div>
+  <section class="banner">
+    <picture>
+      <source media="(max-width:768px)" srcset="image/mobile_banner.png" />
+      <img src="image/pcbanner.png" alt="프로모션 배너" />
+    </picture>
+  </section>
+  <section class="book">
+    <div class="book_title">
+      <img src="image/title_icon01.png" alt="책 아이콘" class="book_title_icon" />
+      <h2 class="book_text">베스트셀러</h2>
+    </div>
+    <ul class="book_img" id="dragContainer">
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20241202_682030348.jpg" alt="교재 01" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20241029_21020755.jpg" alt="교재 02" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20220627_20081992.jpg" alt="교재 03" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20241106_273238634_1.jpg" alt="교재 04" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20241122_905234428.jpg" alt="교재 05" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20241106_273232670_1.jpg" alt="교재 06" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20250212_468633648.jpg" alt="교재 07" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20250120_643183525.jpg" alt="교재 08" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20250109_866393239.jpg" alt="교재 09" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20240924_186452285.jpg" alt="교재 10" /></li>
+      <li><img src="https://www.dongyangbooks.com/Upload/books/20240807_224017676.jpg" alt="교재 11" /></li>
+    </ul>
+  </section>
+  <section class="daditional-images">
+    <div class="title-container">
+      <div class="title_icon">
+        <img src="image/title_icon02.png" alt="타이틀 아이콘">
+      </div>
+      <h2 class="additional-title">이벤트</h2>
+    </div>
+    <div class="additional-images-container">
+      <img src="image/ad01.png" alt="광고배너 1">
+      <img src="image/ad02.png" alt="광고배너 2">
+      <img src="image/ad03.png" alt="광고배너 3">
+      <img src="image/ad04.png" alt="광고배너 4">
+    </div>
+  </section>
+  <section class="postscript">
+    <div class="pos_header">
+      <img src="image/mic.png" alt="마이크 아이콘">
+      <h2 class="pos_text">스터디 로그</h2>
+    </div>
+    <ul class="pos_img">
+      <li><img src="image/후기1pc.png" alt="후기 1" /></li>
+      <li><img src="image/후기2pc.png" alt="후기 2" /></li>
+      <li><img src="image/후기3pc.png" alt="후기 3" /></li>
+      <li><img src="image/후기4pc.png" alt="후기 4" /></li>
+    </ul>
+  </section>
+  <footer>
+    <p class="footer-text1">회사소개 | 이용약관 | <span>개인정보취급방침</span> | 이메일수집거부 | 제휴문의</p>
+    <p class="footer-text2">주식회사 동양북스 대표 김태웅</p>
+    <p class="footer-text3">
+      사업자 등록번호 105-87-98057 <br>
+      <br>서울본사: 서울특별시 마포구 동교로22길14 <br>
+      물류센터: 경기 파주시 소라지로 138-20 <br>
+      © 동양북스 inc. all rights reserved
+    </p>
+    <div class="footer-bottom">
+      <div class="footer-images">
+        <img src="image/fooicn01.png" alt="sns 아이콘 1" />
+        <img src="image/fooicn02.png" alt="sns 아이콘 2" />
+        <img src="image/fooicn03.png" alt="sns 아이콘 3" />
+        <img src="image/fooicn04.png" alt="sns 아이콘 4" />
+        <img src="image/fooicn05.png" alt="sns 아이콘 5" />
+      </div>
+      <div class="footer-logo">
+        <img src="image/foolo.png" alt="푸터로고">
+      </div>
+    </div>
+  </footer>
+  <div class="bottom-menu">
+    <a href="search.html"><img src="image/icon01.png" alt="서치" /></a>
+    <a href="index.html"><img src="image/icon02.png" alt="홈" /></a>
+    <a href="login.html"><img src="image/icon03.png" alt="프로필" /></a>
+  </div>
+  <div class="notice" id="notice">
+    <div class="modal-content">
+      <img src="image/icon_close.png" class="close-btn position-top-right" alt="닫기" />
+      <div class="notice-item">
+        <p class="sub">신간소식</p>
+        <p class="main">따끈따끈한 신간출시! 외국어 학습의 새로운 시작을!</p>
+      </div>
+      <div class="notice-item">
+        <p class="sub">학습 알림</p>
+        <p class="main">은주님! 동양학습과 함께 할 시간이에요!</p>
+      </div>
+      <div class="notice-item">
+        <p class="sub">신간소식</p>
+        <p class="main">새로운 외국어 학습서, 지금 바로 만나보세요!</p>
+      </div>
+      <div class="notice-item">
+        <p class="sub">신간소식</p>
+        <p class="main">최신 외국어 학습서 출간! 지금 바로 확인해보세요!</p>
+      </div>
+      <div class="notice-item">
+        <p class="sub">신간소식</p>
+        <p class="main">새로 나온 외국어 교재로 한 걸음 더 성장해보세요!</p>
+      </div>
+      <div class="notice-item">
+        <p class="sub">신간소식</p>
+        <p class="main">놓치지 마세요! 최신 외국어 학습서가 출시되었습니다!</p>
+      </div>
+      <div class="notice-item">
+        <p class="sub">학습 알림</p>
+        <p class="main">은주님! 오늘도 열심히 해볼까요?</p>
+      </div>
+    </div>
+  </div>
+  <div class="menuBox" id="menuBox">
+    <div class="menu-content">
+      <img src="image/icon_close.png" alt="닫기" class="close-btn" />
+      <div class="menu-group">
+        <div class="menu-title">
+          <span>학습키워드</span>
+          <img src="image/icon_arrow.png" alt="아이콘" />
+        </div>
+        <ul class="menu-list">
+          <li><a href="book1-1.html">추천교재</a></li>
+          <li><a href="book1-2.html">디지털 콘텐츠</a></li>
+          <li><a href="#">인기학습</a></li>
+          <li><a href="#">빠른메뉴</a></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <div class="menu-title">
+          <span>언어별</span>
+          <img src="image/icon_arrow.png" alt="아이콘" />
+        </div>
+        <ul class="menu-list">
+          <li><a href="book2-1.html">영어</a></li>
+          <li><a href="book2-2.html">독일어</a></li>
+          <li><a href="book2-3.html">프랑스어</a></li>
+          <li><a href="book2-4.html">스페인어</a></li>
+          <li><a href="book2-5.html">중국어</a></li>
+          <li><a href="book2-6.html">일본어</a></li>
+          <li><a href="book2-7.html">기타언어</a></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <div class="menu-title">
+          <span>수준별</span>
+          <img src="image/icon_arrow.png" alt="아이콘" />
+        </div>
+        <ul class="menu-list">
+          <li><a href="book3-1.html">초급</a></li>
+          <li><a href="book3-2.html">중급</a></li>
+          <li><a href="book3-3.html">고급</a></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <div class="menu-title">
+          <span>목적별</span>
+          <img src="image/icon_arrow.png" alt="아이콘" />
+        </div>
+        <ul class="menu-list">
+          <li><a href="book4-1.html">시험대비</a></li>
+          <li><a href="book4-2.html">비즈니스</a></li>
+          <li><a href="book4-3.html">여행</a></li>
+          <li><a href="#">일상회화</a></li>
+        </ul>
+      </div>
+      <div class="menu-group">
+        <div class="menu-title">
+          <span>분야별</span>
+          <img src="image/icon_arrow.png" alt="아이콘" />
+        </div>
+        <ul class="menu-list">
+          <li><a href="#">자기개발</a></li>
+          <li><a href="#">비즈니스&amp;경제</a></li>
+          <li><a href="#">인문&amp;교양</a></li>
+          <li><a href="#">어린이&amp;청소년</a></li>
+          <li><a href="#">취미&amp;실용</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="index.js" defer></script>
+</body>
+</html>

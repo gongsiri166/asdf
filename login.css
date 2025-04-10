@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Pretendard-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ownglyph_UNZ-Rg';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2406-1@1.0/Ownglyph_UNZ-Rg.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.logo {
+  float: right; 
+  margin: -40px 12px;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+}
+
+
+.hello {
+  color: #051C36;
+  margin-top: 70px;
+  padding-left: 14px;
+  margin-bottom: 50px;
+}
+
+.hello p {
+  font-family: 'Ownglyph_UNZ-Rg';
+  font-size: 25px;
+}
+
+.hello span {
+  font-family: 'Pretendard-Regular';
+  font-size: 20px;
+}
+
+
+.login-input {
+  display: block;
+  width: 320px;            
+  height: 40px;             
+  background-color: #ffffff; 
+  border: none;            
+  border-radius: 100px;      
+  box-shadow: 0 0px 2.8px 0px rgba(0, 0, 0, 0.25);
+  padding: 0 12px;          
+  font-size: 14px;        
+  outline: none;            
+  box-sizing: border-box;
+  margin: 7px auto;
+}
+
+
+.login {
+  background-color: #FFC857;
+  color: #ffffff;
+  width: 220px;
+  height: 40px;
+  border-radius: 100px;
+  margin: 10px auto;
+  border: none; 
+  outline: none;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.login_text01 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 16px;
+  color: #171717;
+  font-family: 'Pretendard-Regular';
+  margin-top: 30px;
+}
+
+.login_text02 {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  color: #878787;
+  font-family: 'Pretendard-Regular';
+  margin-bottom: 30px;
+}
+
+.login_text02 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.login_text02 a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.simple_login {
+  margin-top: 20px;
+}
+
+.simple_text {
+  display: flex;
+  justify-content: center;
+  font-family: 'Pretendard-Regular';
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.simple_icon a {
+  text-decoration: none;
+  color: inherit;
+}
+.simple_icon {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.simple_icon img:nth-child(1) {
+  box-shadow: 0 0px 2.8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+}
